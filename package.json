@@ -23,6 +23,8 @@
     "construct-style-sheets-polyfill": "3.1.0",
     "date-fns": "2.29.3",
     "lit": "3.2.1",
+    "mobx": "^6.13.5",
+    "mobx-react-lite": "^4.0.7",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router-dom": "6.26.2"
@@ -117,7 +119,7 @@
       "workbox-core": "7.3.0",
       "workbox-precaching": "7.3.0"
     },
-    "hash": "e0abf385a0a1ff1e10fbcfe00bd0c817d1d4003317b2d81fd5fd2910cfd15fd0"
+    "hash": "56befe6ff0c6a2ac9dc9001cc3951282910debf4c9bbbd0e59b0a8e4cd14e79e"
   },
   "type": "module",
   "overrides": {
@@ -146,6 +148,8 @@
     "date-fns": "$date-fns",
     "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
     "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
-    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles"
+    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
+    "mobx": "$mobx",
+    "mobx-react-lite": "$mobx-react-lite"
   }
 }
