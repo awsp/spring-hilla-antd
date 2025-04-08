@@ -28,6 +28,13 @@ extra["vaadinVersion"] = "24.7.0"
 
 dependencies {
   implementation("com.vaadin:vaadin-spring-boot-starter")
+  implementation("com.vaadin:vaadin")
+  implementation("com.vaadin:control-center-starter")
+  implementation("org.parttio:line-awesome:2.1.0")
+  implementation("org.springframework.boot:spring-boot-starter-security")
+  runtimeOnly("org.postgresql:postgresql")
+  implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+  implementation("org.springframework.boot:spring-boot-starter-validation")
   compileOnly("org.projectlombok:lombok")
   developmentOnly("org.springframework.boot:spring-boot-devtools")
   annotationProcessor("org.projectlombok:lombok")
