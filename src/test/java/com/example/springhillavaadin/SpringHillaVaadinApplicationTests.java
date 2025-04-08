@@ -1,10 +1,10 @@
-package com.example.hillaantd;
+package com.example.springhillavaadin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HillaAntdApplicationTests {
+class SpringHillaVaadinApplicationTests {
 
   @Test
   void contextLoads() {

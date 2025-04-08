@@ -1,1 +1,1 @@
-rootProject.name = "hilla-antd"
+rootProject.name = "spring-hilla-vaadin"

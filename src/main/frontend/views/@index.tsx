@@ -1,19 +1,20 @@
-import {Button, Flex, Radio, Space} from "antd";
+import {Button} from "antd";
+import {useAppStore} from "Frontend/store/app.store";
+import {useEffect, useState} from "react";
 
 export default function HomeView() {
-  const options = [
-    {label: 'Apple', value: 'Apple'},
-    {label: 'Pear', value: 'Pear'},
-    {label: 'Orange', value: 'Orange'},
-  ];
+  const setPage = useAppStore((state) => state.setPage);
+  const [counter, setCounter] = useState<number>(0);
+
+  useEffect(() => {
+    setPage('Home');
+  }, []);
 
   return (
-      <Space style={{padding: '20px'}}>
-        <Flex vertical gap="middle">
-          <Radio.Group block options={options} defaultValue="Pear" optionType="button"/>
-        </Flex>
-        <Button type="primary" htmlType="submit">Test</Button>
-      </Space>
+    <div>
+      <Button type="primary" onClick={() => setCounter(counter + 1)}>Click me</Button>
+      <section>{counter}</section>
+    </div>
   );
 }
 

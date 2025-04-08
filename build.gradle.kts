@@ -1,8 +1,8 @@
 plugins {
   java
-  id("org.springframework.boot") version "3.4.0"
-  id("io.spring.dependency-management") version "1.1.6"
-  id("com.vaadin") version "24.5.8"
+  id("org.springframework.boot") version "3.4.4"
+  id("io.spring.dependency-management") version "1.1.7"
+  id("com.vaadin") version "24.7.0"
 }
 
 group = "com.example"
@@ -24,7 +24,7 @@ repositories {
   mavenCentral()
 }
 
-extra["vaadinVersion"] = "24.5.3"
+extra["vaadinVersion"] = "24.7.0"
 
 dependencies {
   implementation("com.vaadin:vaadin-spring-boot-starter")
